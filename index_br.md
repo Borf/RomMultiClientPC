@@ -102,20 +102,20 @@ Depois disso, rode o arquivo batch (.bat) com o nome que você colocou
 ## Ajuda!
 
 1) Eu tento logar mas não está funcionando
-  Se você está tentando logar, e não está logando, é porque o novo usuário não tem acesso ao seu browser. Alguns browsers instalam no diretório raiz do usuário, e não podem ser executados por outros usuários. ROM não da um erro apropriado se não consegue abrir o browser. Tem duas formas de contornar está situação
+  Se você está tentando logar, e não está logando, é porque o novo usuário não tem acesso ao seu browser. Alguns browsers instalam no diretório raiz do usuário, e não podem ser executados por outros usuários. ROM não da um erro apropriado se não consegue abrir o browser. Tem duas formas de contornar está situação  
   - Temporariamente configurar seu browser padrão para o Edge (Edge funciona, por padrão, para todos os usuários). Depois de logar, você pode configurar para o seu browser de preferência de volta
   - Copiar o token de login do seu client normal. A informação de login é guardada em `C:\Users\user\AppData\LocalLow\X_D_ Network Inc_\Ragnarok M` (troque o 'user' pelo nome do usuário do seu computador). Você pode copiar esta pasta para `C:\Users\nomealt\AppData\LocalLow\X_D_ Network Inc_\Ragnarok M`, aonde o 'nomealt' é o nome do seu alt. Estas pastas estão escondidas, então você precisará habilitar ver pastas e arquivos escondidos.
 
-2) Esses novos usuários aparecem na minha tela de login do Windows, e na hora de trocar de usuário também, e eu não quero isso
+2) Esses novos usuários aparecem na minha tela de login do Windows, e na hora de trocar de usuário também, e eu não quero isso  
   Facil, depois de logar neles, vá para a ferramenta de `Gerenciamento do computador`, encontre o usuário que foi criado, edite-o, e remova do grupo de **Usuários**. Isso irá remove-los da tela de login também
 
-3) Estas janelas são muito bagunçadas! Como eu organizo eles?
+3) Estas janelas são muito bagunçadas! Como eu organizo eles?  
   Para isso, eu uso [FancyZones](https://learn.microsoft.com/pt-br/windows/powertoys/). Você pode desenhar um grid e ajustar suas janelas neste grid segurando Shift. ROM vai redimensionar proporcionalmente com a tela com esta ferramenta, assim você pode organizar do jeito que preferir
 
-4) Eu parei de jogar. Como eu me livro disso?
+4) Eu parei de jogar. Como eu me livro disso?  
   Não para de jogar ☹️. Mas através do painel de 'Gerenciamento do Computador', você pode remover os usuários que você fez, e você pode deletar as pastas do usuário que criou do seu HD para "desinstalar" isso tudo. Você poderá readicionar os usuário se decidir voltar para o jogo
 
-5) Eu sou ainda mais preguiçoso do que imagina. Posso iniciar múltiplas instâncias ao mesmo tempo?
+5) Eu sou ainda mais preguiçoso do que imagina. Posso iniciar múltiplas instâncias ao mesmo tempo?  
   Claro que pode. Os arquivos .bat criados, podem ser abertos em qualquer editor de texto e combinado em um único arquivo .bat, isso iniciará todos as instâncias com apenas 1 click
 
   ![Ad](lumi_borf.gif)
