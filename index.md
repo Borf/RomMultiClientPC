@@ -32,7 +32,7 @@ This is a process you can do for every alt you'd like to use, and create as many
 
 ## Not having to fill in your login information every time for every client
 
-ROM stores its login credentials in the application data folder in side of your user account. This means, that in order to have multiple credentials stored, you can create multiple users to each store their own credentials. Unfortunately, the user interface for this is only available in windows **professional**, not in the home edition. As I don't have home edition, I can not test if the automated method does work. So, for every alt client, create a new user
+ROM stores its login credentials in the application data folder inside of your user account. This means, that in order to have multiple credentials stored, you can create multiple users to each store their own credentials. Unfortunately, the user interface for this is only available in windows **professional**, not in the home edition. As I don't have home edition, I can not test if the automated method does work. So, for every alt client, create a new user
 
 1) Open **computer management** (in the start menu, just search for computer management)  
   ![Computer Management](computermanagement.png)
