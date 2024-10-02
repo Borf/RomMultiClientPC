@@ -1,5 +1,7 @@
   ![Ad](lumi_borf.gif)
 
+[[En](index)][[Pt(br)](index_br)]
+
 # How to run multiple instances of the ROM PC client to run your students easily
 
 > ## If you are not interested in how this works and just want it to work, [download](CreateInstance.bat) the script, save it to your ROM folder and run it to create instances. Script is explained [here](#automating-all-this)
