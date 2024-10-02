@@ -1,3 +1,5 @@
+  ![Ad](lumi_borf.gif)
+
 # How to run multiple instances of the ROM PC client to run your students easily
 
 > ## If you are not interested in how this works and just want it to work, [download](CreateInstance.bat) the script, save it to your ROM folder and run it to create instances. Script is explained [here](#automating-all-this)
@@ -111,3 +113,5 @@ After that, just run the batch file with the name or your alt that you entered
 
 5) I am even more lazy. Can I start multiple clients at the same time?
   Of course you can. The .bat files that are created, can be opened in any text editor and combined into a single .bat file, that will start all of your clients with 1 click
+
+  ![Ad](lumi_borf.gif)
