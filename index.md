@@ -1,10 +1,10 @@
 # How to run multiple instances of the ROM PC client to run your students easily
 
-> ## If you are not interested in how this works and just want it to work, go to the bottom section to download the script to create instances**
+> ## If you are not interested in how this works and just want it to work, [download](CreateInstance.bat) the script, save it to your ROM folder and run it to create instances. Script is explained [here](#automating-all-this)
 
-It is possible to run multiple clients side by side, with only a single ROM installation, so it doesn't use up 10gb of disk space per client. Also you do not have to login every time you start up the client. This guide will first explain the tech behind these 2 functions (running multiple clients, not having to login every time), and then show a way to automate this. This guide is a little bit technical, but the automated way in the end is a little bit less technical. Also I will not provide any executables you can just run to make this all pretty, as you should not run executables made by others on your computer without reading the code behind it
+It is possible to run multiple clients side by side, with only a single ROM installation, so it doesn't use up 10gb of disk space per client. Also you do not have to login every time you start up the client. This guide will [first](#running-multiple-clients) explain the tech behind these 2 functions (running multiple clients, not having to login every time), and [then](#not-having-to-fill-in-your-login-information-every-time-for-every-client) show a way to automate this. This guide is a little bit technical, but the automated way in the end is a little bit less technical. Also I will not provide any executables with a nice user interface you can just run, as you should not just run executables made by others on your computer without reading the code behind it. By providing a script you can read how it works, and that it does not break your computer
 
-In this guide, I will be using `altname` as a name for your alt. What name you use here doesn't matter (can be `cousin`, `alt`, `little_nephew`), as long as you use the same name everywhere. If you want to add a 3rd account, use a different word. The windows account name and the executable name don't **have** to match, but, it is not a bad thing to have everything match.
+> In this guide, I will be using `altname` as a name for your alt. What name you use here doesn't matter (can be `cousin`, `alt`, `little_nephew`), as long as you use the same name everywhere. If you want to add a 3rd account, use a different word. The windows account name and the executable name don't **have** to match, but, it is not a bad thing to have everything match.
 
 ## Running multiple clients
 
@@ -57,6 +57,7 @@ Automating this is done in 2 parts, automatic client instance creation, and auto
 
 Save this as a batch file and put it in your RO:M directory (the one that has `ro_win.exe` in it). If you have it saved in your `Program Files` directory, you might have to be administrator to save it there
 
+[download](CreateInstance.bat) this script here
 ```batch
 @echo off
 net session >nul 2>&1
@@ -86,9 +87,11 @@ echo Done! you can now close this window if you don't see any errors
 pause
 ```
 
-**Then run this script as administrator**
+After saving/downloading the script, run this script as **administrator** by right-clicking it, and click 'run as administrator'. The script will not run if it is not ran as administrator, as administrator is required to make a new user on your computer
 
-This script will ask for a name, then create a user with that name on your computer, copy the executable, make a link, and create a new startup file to start your new instance with the proper user. The user created will be made with the password set to the name of that character.
+This script will ask for a name, then create a user with that name on your computer, copy the executable, make a link, and create a new startup file to start your new instance with the proper user. The user created will be made with the password set to the name of that character, and you will have to enter this the first time you run
+
+After that, just run the batch file with the name or your alt that you entered
 
 ## Help!
 
@@ -105,3 +108,6 @@ This script will ask for a name, then create a user with that name on your compu
 
 4) I quit playing the game. How do I get rid of this?  
   Don't quit the game ☹️. But through the computer management panel, you can just remove the users you made, and you can then delete their user-folders from your hard drive to "uninstall" all this. You can always re-add the users if you decide to come back
+
+5) I am even more lazy. Can I start multiple clients at the same time?
+  Of course you can. The .bat files that are created, can be opened in any text editor and combined into a single .bat file, that will start all of your clients with 1 click
