@@ -20,7 +20,7 @@ folder next to the executable
 ```
 
 Now we could make a copy of the `ro_win_Data` directory and rename it to `ro_win_altname_Data`, but this is a waste of disk space, and it would mean that you would have to patch and update both folders. Fortunately, windows has a special system for this, called *symbolic link*. A symbolic link is basically a copy, without taking up any disk space. Any change in one of the links will be reflected in all of the links. This is unfortunately not available from the windows user interface, and you will have to use the **command line** prompt to make a symlink.
-In order to make a link, you can open a command prompt, change to the ROM directory and use
+In order to make a link, you can open a command prompt, change to the ROM directory (using `cd foldername') and use
 ```
 mklink /d ro_win_altname_Data ro_win_Data
 ```
