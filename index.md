@@ -81,7 +81,7 @@ if "%name%" == "" (
 )
 
 cd /d %~dp0
-net user %name% %name% /add
+net user %name% %name% /add /expires:NEVER
 mklink /d ro_win_%name%_Data ro_win_Data
 copy ro_win.exe ro_win_%name%.exe
 
