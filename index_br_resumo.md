@@ -8,7 +8,7 @@
 
 2) Coloque a bat na pasta do executável do jogo, normalmente encontrado em: `C:\Program Files (x86)\XD\Ragnarok M Classic Global` e execute o arquivo BAT;
 
-3) O arquivo irá abrir a famosa tela preta do Windows e ~minerar bitcoin~ pedirá o nome do personagem. **NÃO COLOQUE ESPAÇOS OU CARACTERES ESPECIAIS**;
+3) O arquivo irá abrir a famosa tela preta do Windows e ~~minerar bitcoin~~ pedirá o nome do personagem. **NÃO COLOQUE ESPAÇOS OU CARACTERES ESPECIAIS**;
 
 4) O arquivo vai criar um usuário no Windows com o nome do personagem e a senha será idêntica ao nome do usuário criado;
 
